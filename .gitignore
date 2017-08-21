@@ -1,25 +1,9 @@
-# CakePHP 3
-
-/vendor/*
-/config/app.php
-
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
-
-/logs/*
-!/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+cd $HOME
+git clone https github.com/BeyondTeam/BDReborn .git
+cd BDReborn
+chmod +x beyond. sh
+./beyond sh install
+./beyond. sh
+cd BDReborn
+chmod 777 autobd.sh
+screen ./autobd.sh BDHelper
